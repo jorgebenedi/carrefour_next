@@ -1,0 +1,81 @@
+body {
+  background-color: #f8f9fa;
+}
+.header {
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+.header img {
+  height: 40px;
+}
+.registro-container {
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.registro-container h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.btn-primary {
+  background-color: #6495ED;
+  border: none;
+}
+.btn-primary:disabled {
+  background-color: #b0c4de;
+}
+.small-text {
+  font-size: 12px;
+  text-align: center;
+  color: gray;
+  margin-top: 10px;
+}
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+}
+.footer {
+  text-align: center;
+  padding: 20px 10px;
+  background: white;
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+}
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer p {
+  margin: 5px 0;
+  font-size: 12px;
+  color: gray;
+}
+
+.legal-text {
+  font-size: 13px;
+  color: #000;
+  text-align: justify;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+.legal-text a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 400;
+}

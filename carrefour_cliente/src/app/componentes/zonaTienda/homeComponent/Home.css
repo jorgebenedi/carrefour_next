@@ -1,0 +1,29 @@
+
+
+.pre-footer {
+    display: flex;
+    align-items: center;
+    padding-top: .5rem;
+    border-top: 1px solid #f4f4f4;
+}
+
+.pre-footer__item {
+    flex: 25%;
+    text-decoration: none;
+}
+
+a.pre-footer__title {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-family: Ubuntu, sans-serif;
+    font-size: .86rem;
+    justify-content: center;
+    background-color: transparent;
+}
+
+i {
+    color: #0970e6;
+    padding-right: 5%;
+}

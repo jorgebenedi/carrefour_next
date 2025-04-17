@@ -1,0 +1,43 @@
+div.detalles:hover {
+    cursor: pointer;
+}
+
+.contenedor {  
+    position: relative;  
+    display: inline-block;  
+}  
+
+.boton {  
+    position: absolute;  
+    top: 10%;  
+    left: 80%;  
+    transform: translate(-50%, -50%);  
+    width: 30px; /* Ajusta el tamaño del botón */  
+    height: 30px; /* Ajusta el tamaño del botón */  
+    border-radius: 50%;  
+    background-color: white; /* Color del botón */  
+    border: none;  
+    color: black;  
+    font-size: 16px;  
+    cursor: pointer;  
+    text-align: center;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+}
+
+.addToCart {
+    width: 50%;
+    text-align: center;
+    position: center;
+    font-size: .93333333rem;
+    color: #fff;
+    border: 1px solid #0970e6;
+    border-radius: 3px;
+    background-color: #0970e6;
+    transition: all .3s ease-out;
+    cursor: pointer;
+    outline: none;
+    font-family: Ubuntu Bold, sans-serif;
+    font-weight: 700;
+}

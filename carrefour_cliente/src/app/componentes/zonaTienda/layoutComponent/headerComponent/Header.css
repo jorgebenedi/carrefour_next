@@ -1,0 +1,341 @@
+.botonmenu {
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #d8d8d8;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: #000;
+    background-color: white;
+    display: flex;
+    align-items: center; 
+    font-size: 0.9rem; /* Make the text slightly smaller */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-right: 30px; /* Add spacing between "Menú" and "Folletos" */
+    border: none;
+    background: none;
+}
+
+.botonmenu:hover {
+    color: #000; /* Ensure hover color remains black */
+}
+
+.botonEnvio {
+    border: 1px solid #0970e6;
+    margin-right: 10px;
+    color: #000000;
+    width: 185px;
+    height: 46px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: .93333333rem;
+    display: flex;
+}
+
+.botonDrive {
+    border: 1px solid #c91010;
+    color: #c91010;
+    display: flex;
+    width: 155px;
+    flex-direction: row;
+    height: 46px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: .93333333rem;
+}
+
+.botonEnvio:hover, .botonDrive:hover {
+    box-shadow: 5px 2px 10px rgba(0, 0, 0, .1);
+}
+
+.cms-header__cp-delivery-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    text-align: left; 
+    font-size: 15px;   
+}
+
+.cms-header__delivery-to {
+    color: #575757;
+    font-size: 14px;
+}
+
+.cms-header__cp {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cms-header__free {
+    color: #575757;
+    font-size: .93333333rem;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 0 30px; /* Add spacing between the search bar and other sections */
+    flex-grow: 1; /* Allow the search bar to grow */
+    max-width: 800px; /* Extend the search bar */
+}
+
+.search-bar input[type="text"] {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #d8d8d8;
+    border-radius: 20px;
+    padding-left: 2rem;
+    background: #fff;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem; /* Make the text slightly smaller */
+    line-height: 1.15;
+    margin: 0;
+    padding: 0 15px;
+}
+
+.search-bar__search-actions {    
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #0970e6;
+    color:#fff;
+    margin-left: -40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoria-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.categoria-item.active {
+    background-color: #f8f9fa;
+}
+
+.categoria-item .submenu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #d8d8d8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+}
+
+.categoria-item.active .submenu {
+    display: block;
+}
+
+.submenu .list-group-item {
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.submenu .list-group-item:hover {
+    background-color: #8f0909;
+    width: 100%;
+}
+
+/* Offcanvas styles */
+.offcanvas-header {
+    width: 770px; /* Make the off-canvas panel wider */
+    background-color: #f8f9fa;
+}
+
+.offcanvas-body {
+    display: flex;
+    flex-direction: row;
+    width: 770px; /* Make the off-canvas panel wider */
+    background-color: #f8f9fa;
+
+}
+
+.main-categories {
+    width: 55%; /* Adjust the width of the main categories panel */
+    border-right: 1px solid #d8d8d8;
+    overflow-y: auto;
+}
+
+.subcategories-panel {
+    width: 40%; /* Adjust the width of the subcategories panel */
+    overflow-y: auto;
+    padding-right: 10px;
+
+    background-color: #f8f9fa;
+    margin-top: 5px; /* Lower the subcategories slightly */
+    padding-left: 10px;
+
+}
+
+.subcategories-panel h6 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.subcategories-panel h7 {
+    margin-right: 20px; /* Move the title closer to the left */
+    font-size: 1.2rem; /* Adjust font size if needed */
+}
+
+.subcategories-panel .list-group-item {
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subcategories-panel .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+.titulo-subcategorias{
+
+    padding-right:10px ;
+    margin-right: 70px; /* Move the title closer to the left */
+}
+/* Subcategory panel narrow style */
+#offcanvasSubcategories {
+    width: 40%; /* Narrower width for subcategories */
+}
+
+.sub-subcategories-panel {
+    width: 30%; /* Make the sub-subcategories panel smaller */
+    padding-left: 10px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    border-left: 1px solid #d8d8d8;
+    font-size: 0.5rem; /* Slightly smaller font size for the title */
+    margin-top: 10px; /* Lower the subcategories slightly */
+
+
+}
+
+.sub-subcategories-panel h6 {
+    font-size: 1rem; /* Slightly smaller font size for the title */
+}
+
+.sub-subcategories-panel h8 {
+    margin-left: 5px; /* Move the title closer to the left */
+    font-size: 1rem; /* Adjust font size if needed */
+    font-weight: bold;
+}
+
+.sub-subcategories-panel .list-group-item {
+    padding-right: 5px; /* Reduce padding for sub-subcategories */
+    font-size: 0.8rem; /* Slightly smaller font size */
+    cursor: pointer;
+}
+
+.sub-subcategories-panel .list-group-item:hover {
+    background-color: #e9ecef; /* Subtle hover effect */
+}
+
+.subcategories-panel h7,
+.sub-subcategories-panel h8 {
+    display: flex; /* Align the image and title horizontally */
+    align-items: self-start; /* Vertically center the image and title */
+}
+
+.subcategories-panel img,
+.sub-subcategories-panel img {
+    margin-right: 10px; /* Add spacing between the image and the title */
+}
+
+.carrefour-logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px; /* Add spacing between the logo and the menu */
+}
+
+.navbar {
+    width: 100%; /* Ensure the navbar spans the full width */
+    margin: 0;
+    padding: 10px 0; /* Add vertical padding */
+    border-bottom: 1px solid #d8d8d8; /* Optional: Add a bottom border for separation */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000 !important; /* Force text color to black */
+    text-decoration: none;
+
+}
+
+.nav-link {
+    margin: 0 5px; /* Add spacing between the right-side links */
+    color: #000 !important; /* Force text color to black */
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #000 !important; /* Ensure hover color remains black */
+}
+
+.navbar .d-flex.align-items-center {
+    gap: 2px; /* Add spacing between elements in the left and right sections */
+    text-decoration: none;
+
+}
+
+.account-icon {
+    width: 24px; /* Adjust the size of the account icon */
+    height: 24px;
+    margin-right: 5px; /* Add spacing between the icon and text */
+}
+
+/* Optional: Add responsive styles */
+@media (max-width: 768px) {
+    .search-bar {
+        flex-grow: 0;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .navbar .d-flex.align-items-center {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.container {
+    max-width: 100%; /* Ensure the container spans the full width */
+    padding-left: 15px; /* Add some padding for content alignment */
+    padding-right: 15px;
+}
+
+.delivery-options {
+    background-color: #f8f9fa; /* Light background for the section */
+    padding: 10px 0;
+    border-bottom: 1px solid #d8d8d8; /* Optional: Add a bottom border for separation */
+}
+
+.delivery-option {
+    display: flex;
+    align-items: center;
+    margin: 0 20px; /* Add spacing between the options */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    color: #000; /* Text color in black */
+}
+
+.delivery-option img.delivery-icon {
+    width: 24px; /* Adjust the size of the icons */
+    height: 24px;
+    margin-right: px; /* Add spacing between the icon and the text */
+}

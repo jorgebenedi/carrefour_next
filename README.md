@@ -8,10 +8,4 @@ This project is focused on the latest version of React, aiming to enhance the fu
 It does not replicate the exact experience but seeks to provide an improved version, optimizing user experience, design, and features.
 
 ```
-### Installation Guide
-```
-install Python
-pip install pygame
-pip install colorama
-nstall auto-py-to-exe
-```
+

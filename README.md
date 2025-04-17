@@ -4,7 +4,8 @@
 
 ### carrefour_next
 ```
-This project is focused on the latest version of React, aiming to enhance the functionalities of the original Carrefour platform with modern approaches. It does not replicate the exact experience but seeks to provide an improved version, optimizing user experience, design, and features.
+This project is focused on the latest version of React, aiming to enhance the functionalities of the original Carrefour platform with modern approaches.
+It does not replicate the exact experience but seeks to provide an improved version, optimizing user experience, design, and features.
 
 ```
 ### Installation Guide
